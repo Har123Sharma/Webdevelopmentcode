@@ -1,0 +1,25 @@
+ .c1{
+    border: 2px solid green;
+    background-color: yellow;
+    background-clip: content-box;
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+/* .c1{
+    /* padding: 25px 50px 75px 100px; */
+    /* top right bottom left */
+
+    /* padding: 25px 50px 75px; */
+    /* top right_left bottom */
+
+    
+    /* padding: 25px 50px; */
+    /* top_bottom right_left */
+
+    /* padding: 25px; */
+    /* All four */
+
+/*}*/

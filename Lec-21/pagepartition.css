@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    height: 150px;
+    background-color: cyan;
+}
+#navi{
+    height: 100px;
+    background-color: pink;
+}
+#details{
+    display: table;
+}
+#details::after{
+    clear:both;
+}
+#left{
+    width: 25%;
+    float: left;
+    background-color: blue;
+    padding:10px;
+}
+#middle{
+    width:50%;
+    float:left;
+    background-color: red;
+    padding:10px;
+}
+#right{
+    width: 25%;
+    float:left;
+    background-color: yellow;
+    padding:10px;
+}
+#footer{
+    height: 100px;
+    background-color: green;
+}

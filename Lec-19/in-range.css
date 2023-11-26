@@ -1,0 +1,6 @@
+input{
+    background-color: red;
+}
+input[type="number"]:in-range{
+    background-color: cyan;
+}

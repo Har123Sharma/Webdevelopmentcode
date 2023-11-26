@@ -1,0 +1,23 @@
+.c1{
+    color: #d31a1a;
+    text-align: justify;
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+    text-transform: capitalize;
+    text-indent: 150px;
+    direction: rtl;
+    /* line-height: 30px; */
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+}
+
+.c2{
+    color:blueviolet;
+    white-space: pre;
+}
+
+.c3{
+    text-shadow: 5px 5px 5px yellowgreen;
+}

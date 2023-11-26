@@ -1,0 +1,18 @@
+.c1{
+    width: 400px;
+    border:5px solid pink;
+    /* margin:50px; It is margin for top bottom left right*/
+    /* margin:50px 70px; It is margin for top_bottom left_right*/
+    /* margin:50px 70px 90px; It is margin for top left_right bottom*/
+    /* margin:50px 60px 70px 80px; It is margin for top right bottom left*/
+     margin:auto /*It will put the item in center */
+}
+
+h1{
+    margin: 0 0 50px 0;
+}
+
+h2{
+    margin:20px 0 0 0;
+}
+/* In this case it will be a case of margin collapse and total margin between h1 and h2 is 50px */

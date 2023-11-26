@@ -1,0 +1,8 @@
+body{
+    background-color: cyan;
+    background-image: url("download.jpeg"),url("download.jfif");
+    background-size: 200px 200px,200px 200px;
+    background-repeat: no-repeat,no-repeat;
+    background-position: top right,top left;
+    background-attachment: scroll;
+}

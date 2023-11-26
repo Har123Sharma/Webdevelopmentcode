@@ -1,0 +1,9 @@
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: small-caps;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+
+    /* font: 36px italic bolder small-caps Verdana, Geneva, sans-sarif; */
+}

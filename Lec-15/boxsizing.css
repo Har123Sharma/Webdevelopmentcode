@@ -1,0 +1,37 @@
+.div1{
+    width: 300px;
+    height: 100px;
+    border:1px solid blue;
+    padding:0px;
+    margin:0px;
+    box-sizing: content-box;
+}
+
+.div2{
+    width: 300px;
+    height: 100px;
+    border:1px solid red;
+    padding:50px;
+    margin:0px;
+    box-sizing: content-box;
+}
+
+.div3{
+    width: 300px;
+    height: 100px;
+    border:1px solid red;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.div4{
+    width: 300px;
+    height: 100px;
+    border:1px solid red;
+    padding:50px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/* Margin will now include in this in case of border box */

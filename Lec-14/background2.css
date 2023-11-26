@@ -1,0 +1,24 @@
+.c1{
+    border:10px solid cyan;
+    padding: 50px;
+    background-color: #ffff00;
+    /* background-color: rgba(75, 95, 128, 0.4); */
+    background-clip: padding-box;
+    background-clip: content-box
+}
+/* .c1{
+    border:10px solid cyan;
+    padding: 50px;
+    /* background-color: #ffff00;
+    background-image: url("download.jfif");
+    background-repeat: no-repeat;
+    background-origin: content-box; */
+
+    /* background: cyan url("download.jfif") no-repeat content-box;
+} */
+
+.c2{
+     /* background-image: linear-gradient(to top,red,green,pink,cyan,blue);
+      background-image: linear-gradient(red,green,pink,cyan,blue); */
+     background-image: linear-gradient(160deg,red,green,pink,cyan,blue);
+}

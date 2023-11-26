@@ -1,0 +1,40 @@
+div.c1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 5s;
+}
+div.c1:hover{
+    width:300px;
+}
+
+div.c2{
+    width:100px;
+    height:100px;
+    background: red;
+    transition: height 2s;
+}
+div.c2:hover{
+    height: 300px;
+}
+div.c3{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition:width 2s,height 2s;
+}
+div.c3:hover{
+    width:300px;
+    height: 300px;
+}
+div.c4{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 5s,transform 5s;
+    transition-delay:2s ;
+}
+div.c4:hover{
+    transform: rotate(180deg);
+    background-color: green;
+}

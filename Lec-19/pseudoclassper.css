@@ -1,0 +1,14 @@
+input[type=text]:read-only{
+    background: red;
+}
+input[type=text]:read-write{
+    background: green;
+}
+/* input[type=text]:enabled
+{
+    background: yellow;
+} */
+input[type=text]:disabled{
+    background:white;
+}
+

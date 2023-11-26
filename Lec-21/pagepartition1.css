@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    height: 100px;
+    background-color: blue;
+}
+#top_panel{
+    display: table;
+    background-color: cyan;
+}
+#top_left{
+    width:50%;
+    float: left;
+}
+#top_right{
+    width:50%;
+    float: left;
+}
+#top_panel:after{
+    clear:both;
+}
+#bottom_panel{
+    display: table;
+    background-color: pink;
+}
+#bottom_left{
+    width:25%;
+    float:left;
+    padding:10px;
+}
+#bottom_middle{
+    width: 50%;
+    float:left;
+}
+#bottom_right{
+    width:25%;
+    float:left;
+}
+#bottom_panel::after{
+    clear:both;
+}
+#footer{
+    background-color: green;
+    height: 110px; 
+}
